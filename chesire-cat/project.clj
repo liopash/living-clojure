@@ -14,7 +14,7 @@
   :ring {:handler chesire-cat.handler/app}
   :profiles
   {:dev {:dependencies [[javax.servlet/servlet-api "2.5"]
-                        [ring-mock "0.3.0"]]}}
+                        [ring/ring-mock "0.3.0"]]}}
   :cljsbuild {
               :builds [{
                         :source-paths ["src-cljs"]
